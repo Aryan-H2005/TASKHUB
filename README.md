@@ -3,8 +3,8 @@
 A full-stack app with authentication, a task module (CRUD), search/filter/sort and a dashboard.
 
 ## Live demo
-- Frontend (Vercel): `https://<your-app>.vercel.app`
-- Backend (Render): `https://<your-api>.onrender.com`
+- Frontend (Vercel): `https://taskhub-client-one.vercel.app/login`
+- Backend (Render): `https://taskhub-vjja.onrender.com/`
 
 ## Login credentials (deployed site)
 | Role | Email | Password |
@@ -88,7 +88,14 @@ Every error returns `{ "message": "..." }`.
 | Network | The frontend shows "Network error..." when the API cannot be reached |
 
 ## Screenshots
-Add screenshots of the running app to the `screenshots/` folder and link them here.
+<img width="1920" height="1080" alt="Screenshot 2026-10-16 103211" src="https://github.com/user-attachments/assets/7fefb271-18c6-4382-bc31-1f4e47358342" />
+<img width="1920" height="1080" alt="Screenshot 2026-10-16 103342" src="https://github.com/user-attachments/assets/dd3cf9c1-8cff-466c-8533-ad46f9a7591f" />
+<img width="1920" height="1080" alt="Screenshot 2026-10-16 103310" src="https://github.com/user-attachments/assets/1f02305b-1b89-4e49-9555-f395227921e5" />
+<img width="1920" height="1080" alt="Screenshot 2026-10-16 103305" src="https://github.com/user-attachments/assets/465c9201-a999-4fe6-9a00-0be8df5fb305" />
+<img width="1920" height="1080" alt="Screenshot 2026-10-16 103259" src="https://github.com/user-attachments/assets/5d229e95-d833-4883-a25c-0276e12d953e" />
+
+
+
 
 ## API collection
 Import `TeamTasks.postman_collection.json` into Postman or Bruno. Set the `baseUrl` variable; the Login request saves the token automatically.

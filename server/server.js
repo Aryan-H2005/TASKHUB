@@ -11,7 +11,13 @@ import { notFound, errorHandler } from "./middleware/error.js";
 const app = express();
 
 const origins = (process.env.CLIENT_URL || "*").split(",").map((s) => s.trim());
-app.use(cors({ origin: origins.includes("*") ? "*" : origins }));
+app.use(
+  cors({
+    origin: "https://taskhub-client-one.vercel.app",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  }),
+);
 app.use(express.json());
 
 app.get("/", (req, res) => res.json({ message: "TeamTasks API is running" }));
